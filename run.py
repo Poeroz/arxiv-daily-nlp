@@ -16,7 +16,7 @@ parser.add_argument("--mail-sender", type=str, help="The email address of sender
 parser.add_argument("--mail-license", type=str, help="License of sender")
 args = parser.parse_args()
 # files_dir = "/home/ubuntu/ArxivDailyMT/files/"
-files_dir = "./"
+files_dir = "files/"
 
 
 def get_page(url):
