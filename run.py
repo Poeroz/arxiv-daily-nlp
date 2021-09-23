@@ -15,7 +15,8 @@ parser.add_argument("--date", type=str, help="The date today in RFC 2822 format,
 parser.add_argument("--mail-sender", type=str, help="The email address of sender, e.g. xxx@163.com")
 parser.add_argument("--mail-license", type=str, help="License of sender")
 args = parser.parse_args()
-files_dir = "/home/ubuntu/ArxivDailyMT/files/"
+# files_dir = "/home/ubuntu/ArxivDailyMT/files/"
+files_dir = "./"
 
 
 def get_page(url):
